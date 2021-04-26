@@ -16,6 +16,7 @@ int main()
 {
     int n;
     long allTotal = 0;
+    char char_line = 196 + '0';
     Book *books = (Book *)malloc(sizeof(Book) * n);
     int tmp_int;
     char tmp_string[BUFFER];
