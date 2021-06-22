@@ -23,10 +23,10 @@ void main()
     printf("x, y, z, p, q, r, *p, *q, *r: %.2f, %.2f, %.2f, %p, %p, %p, %.2f, %.2f, %.2f\n", x, y, z, p, q, r, *p, *q, *r);
 
     float *temp;
-        temp = p;
-        p = q;
-        q = r;
-        r = temp;
+    temp = p;
+    p = q;
+    q = r;
+    r = temp;
     printf("x, y, z, p, q, r, *p, *q, *r: %.2f, %.2f, %.2f, %p, %p, %p, %.2f, %.2f, %.2f\n", x, y, z, p, q, r, *p, *q, *r);
 }
 
